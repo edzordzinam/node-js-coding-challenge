@@ -1,0 +1,10 @@
+{
+  "port" : 3000,
+  "hostname": "localhost",
+  "mongoose": {
+    "uri": "mongodb://localhost:27017/vienhealth"
+  },
+  "security": {
+    "tokenLife" : 3600
+  }
+}
