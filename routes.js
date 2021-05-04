@@ -20,9 +20,7 @@ module.exports = function (app, passport, userModel, AccessToken) {
             }
 
             if (!user) {
-                return res.status(401).send({
-                    message: 'Unauthorized'
-                });
+                return res.status(401).send("Unauthorized");
             }
 
             res.json(user);
@@ -53,9 +51,7 @@ module.exports = function (app, passport, userModel, AccessToken) {
 
                     passport.authenticate('login', function (err, user, info, status) {
                         if (err || !user) {
-                            return res.status(401).send({
-                                message: 'Unauthorized'
-                            });
+                            return res.status(401).send("Unauthorized");
                         }
 
                         res.status(201).json(user);
