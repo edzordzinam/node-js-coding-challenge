@@ -4,7 +4,8 @@ INSTRUCTIONS FOR RUNNING APPLICATION
 
 * Update Config file (config.json) with the right MongoDB URI of your environment
 * npm install 
-* npm run start && npm run test 
+* npm run start
+* npm run test (for running tests)
 * Uses Passport Strategies for Authentication & Authorization
 
 ### You would need:
