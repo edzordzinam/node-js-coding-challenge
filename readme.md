@@ -1,5 +1,12 @@
 ## Vien Health Node coding challenge
 
+INSTRUCTIONS FOR RUNNING APPLICATION
+
+* Update Config file (config.json) with the right MongoDB URI of your environment
+* npm install 
+* npm run start && npm run test 
+* Uses Passport Strategies for Authentication & Authorization
+
 ### You would need:
 * Node.js
 * MongoDB
